@@ -1,0 +1,26 @@
+This text file just talks about main points in this application
+
+// To install multiple packages we use
+npm i < packages we want to install > 
+
+// packages we need and what they do
+1. Express- as our web framework
+2. mongoose- To work with our database
+3. connect-mongo- Allows us to store our sessions in our database so that 
+when we reset the server we dont get logged out
+4. express-session- for our sessions and cookies
+5. express-handlebars- for our template engine
+6. dotenv- for our config, we can put our enviromen variables in there
+7. method-override - This will allows us to make, for instance put and delete requests from 
+our template cause by default you can only make get and post. So this package allow us to do that
+8. moment- alows us to format dates nicely
+9. morgan- for login
+10. passport- passport for authentication
+11. passport-google-oauth20- Since we are using google as our login and oauth20, we need this package
+
+// Development Packages
+1.nodemon- To watch changes in our files and helps us restart the server
+2. cross-env- for our scripts in the package.json file, we want have global variables, it differs on differnt operating system
+
+
+middleware is just a function that has access to the request and response object
